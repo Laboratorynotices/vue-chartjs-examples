@@ -1,4 +1,5 @@
 # vue-chartjs-examples
+Примеры использования vue-chartjs.
 
 ## Project setup
 ```

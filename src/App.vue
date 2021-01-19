@@ -3,16 +3,20 @@
     <h1>Примеры работы с vue-chartjs</h1>
     <h2>Первый график</h2>
     <Chart class="w-75" />
+    <h2>Обновление графиков</h2>
+    <RandomChart class="w-75" />
   </div>
 </template>
 
 <script>
 import Chart from './components/Chart.vue'
+import RandomChart from './components/RandomChart.vue'
 
 export default {
   name: 'App',
   components: {
-    Chart
+    Chart,
+    RandomChart
   }
 }
 </script>
